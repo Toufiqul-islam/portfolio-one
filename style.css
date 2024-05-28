@@ -214,7 +214,7 @@ p {
 	height: 100%;
 	width: 100%;
 	background-color: black;
-	opacity: 0.3;
+	opacity: 0.2;
 	z-index: -1;
 }
 #hero .hero {
@@ -306,7 +306,7 @@ p {
 	height: 100%;
 	width: 100%;
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	opacity: 0.9;
+	opacity: 0.8;
 	z-index: -1;
 }
 #services .service-bottom .icon {
