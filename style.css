@@ -315,7 +315,7 @@ p {
 	margin-bottom: 20px;
 }
 #services .service-item h2 {
-	font-size: 2rem;
+	font-size: 1.7rem;
 	color: white;
 	margin-bottom: 10px;
 	text-transform: uppercase;
@@ -493,6 +493,21 @@ p {
 	line-height: 2rem;
 	font-weight: 500;
 }
+
+.skill{
+	display: flex;
+	margin: 50px;
+	
+}
+.skill .svg{
+	padding: 10px;
+	justify-content: space-around;
+}
+.skill .svg img{
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+}
 /*End contact Section */
 
 /* Footer */
@@ -636,6 +651,12 @@ p {
 	#about .col-right h1 {
 		text-align: left;
 	}
+	.skill{
+		display:flex;
+		flex-direction: column;
+		margin: 50px;
+		
+	}
 	/* End About */
 
 	/* contact  */
@@ -670,6 +691,7 @@ p {
 		text-align: left;
 		padding-left: 20px;
 	}
+
 	/* End contact  */
 }
 /* End Media Query For Tablet */
