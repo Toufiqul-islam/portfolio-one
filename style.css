@@ -376,6 +376,26 @@ p {
 	color: white;
 }
 
+#projects .project-info .but{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	width: 10vw;
+	height: 9vh;
+	justify-content: space-between;
+}
+#projects .project-info .but a button {
+	color: white;
+	font-weight: 700;
+	background-color: black;
+	padding: 8px;
+	border: none;
+	border-radius: 7px;
+	box-shadow: 2px 2px 1px 3px #29323c;
+	width: 90px;
+
+}
+
 #projects .project-img {
 	flex-basis: 50%;
 	height: 300px;
@@ -384,7 +404,7 @@ p {
 }
 
 
-#projects .project-img:after {
+/*#projects .project-img:after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -393,7 +413,8 @@ p {
 	width: 100%;
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	opacity: 0.7;
-}
+}*/
+
 #projects .project-img img {
 	transition: 0.3s ease transform;
 }
@@ -503,8 +524,18 @@ p {
 	padding: 10px;
 	justify-content: space-around;
 }
-.skill .svg img{
+.skill .svg .one{
 	width: 50px;
+	height: 60px;
+	margin: 5px;
+}
+.skill .svg .two{
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+}
+.skill .svg .three{
+	width: 70px;
 	height: 50px;
 	margin: 5px;
 }
@@ -626,6 +657,15 @@ p {
 	#projects .all-projects .project-img {
 		height: 100%;
 	}
+	
+	#projects .project-info .but{
+		display: flex;
+		flex-direction:row;
+		justify-content: space-between;
+	}
+	#projects .project-info .but a button{
+		margin-left: 10px;
+	}
 	/* End Project */
 
 	/* About */
@@ -718,12 +758,21 @@ p {
 	#header .nav-list ul a:after {
 		display: none;
 	}
+
+	/*project*/
+	#projects .project-info .but{
+		display: flex;
+		flex-direction:row;
+		max-width: 15vw;
+		justify-content: space-between;
+	}
 	/* End header */
 
 	#services .service-bottom .service-item {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
+	
 }
 /* End  Media Query For Desktop */
 
